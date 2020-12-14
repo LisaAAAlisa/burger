@@ -1,0 +1,88 @@
+html {
+    background-color: brown;
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.burgerAvailable {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: chocolate;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: coral;
+}
+
+.devour {
+   background-color: green;
+}
+
+.burgerEaten {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: normal;
+   font-size: 20px;
+   text-align: left;
+   border-radius: 25px;
+   width: 100%;
+   margin: 10px;
+   padding: 10px;
+   background-color: wheat;
+   border: none;
+}
+
+h2 {
+     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: brown;
+}
+
+.addBurgerButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: burlywood;
+    border: none;
+}
+
+.addBurgerButton:active {
+   background-color: orange;
+}
+
+.burgerFooter {
+   background-color: burlywood;
+   text-align: center;
+   padding: 20px 0;
+}
+

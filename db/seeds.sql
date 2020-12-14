@@ -1,8 +1,12 @@
 -- Creating seed data for the burgers_db database --
-INSERT INTO burgers (burger_name, devoured) VALUES ('Quarter Pounder Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Mushroom Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Veggie Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Classic Cheeseburger', false);
+
+USE burgers_db;
+delete from burgers;
+
+INSERT INTO burgers (burger_name) VALUES ('Quarter Pounder Burger');
+INSERT INTO burgers (burger_name) VALUES ('Mushroom Burger');
+INSERT INTO burgers (burger_name) VALUES ('Veggie Burger');
+INSERT INTO burgers (burger_name) VALUES ('Classic Cheeseburger');
 
 
 
