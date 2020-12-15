@@ -21,5 +21,8 @@ To get started, open your terminal, navigate to the burger directory, and then e
 
 ## Heroku
 
-## Authors
-* Alisa Macedo
+## Author
+Alisa Macedo
+
+![](./public/assets/img/screen.png)
+
